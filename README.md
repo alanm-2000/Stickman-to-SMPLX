@@ -15,6 +15,8 @@ Create a new Python virtual environment (recommended to keep dependencies isolat
   pip install --upgrade pip
   pip install -r requirements.txt
 
+Download the smplx models from the [project website](https://smpl-x.is.tue.mpg.de/) and put the models folder in the same directory.
+
 ## Generate SMPL-X Joint Points
 
 This script maps your custom 3D body and hand keypoints into the **SMPL-X joint format**.

@@ -109,3 +109,6 @@ venv.bak/
 
 # smplx model
 models/
+*.npy
+*.npz
+*.pkl
