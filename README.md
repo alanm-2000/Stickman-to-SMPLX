@@ -24,23 +24,23 @@ This script maps your custom 3D body and hand keypoints into the **SMPL-X joint 
 ### 1. Map stickman data to SMPL-X
 Run the mapping script with your input body and hand joint files:
 
-    ```
-    python mapping_stickman_to_smplx.py --body BODY_FILE --hand HAND_FILE [--output OUTPUT_FILE]
-    ```
+```
+python mapping_stickman_to_smplx.py --body BODY_FILE --hand HAND_FILE [--output OUTPUT_FILE]
+```
 
 ### 2. Get the Mesh from SMPL-X partial joints
 Run the script to approximate the best fitting smpl-x mesh to the given joints:
 
-    ```
-    python get_mesh_from_3dpoints.py
-    ```
+```
+python get_mesh_from_3dpoints.py
+```
 
 ### 3. Visualize the mesh
 After generating the meshes and joints, you can visualize any frame with:
 
-    ```
-    python visualize.py --frame FRAME_NUMBER
-    ```
+```
+python visualize.py --frame FRAME_NUMBER
+```
 This will open an interactive 3D plot (saved as 3d_smplx_plot.html) showing the SMPL-X body mesh along with joint markers and axes.
 
 ![SMPL-X 3D visualization](assets/3dbody_mesh.png)
