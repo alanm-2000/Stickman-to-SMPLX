@@ -2,7 +2,9 @@
 
 This repository uses the conventional 3d points of a person and creates the smplx mesh out of them. Using the mesh, it can then be imported in Blender.
 This repo uses python 3.11.9
+![Stickman 3D visualization](assets/both_plots_demo.png)
 
+ 
 ## Setup Instructions
 
 ### Setup Environment
@@ -43,5 +45,6 @@ python visualize.py --frame FRAME_NUMBER
 ```
 This will open an interactive 3D plot (saved as 3d_smplx_plot.html) showing the SMPL-X body mesh along with joint markers and axes.
 
-![SMPL-X 3D visualization](assets/3dbody_mesh.png)
+
+## Blender implementation
  
