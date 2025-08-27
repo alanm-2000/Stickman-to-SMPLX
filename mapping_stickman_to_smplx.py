@@ -211,3 +211,4 @@ smplx_joints = reorder_joints(joints_cha1_transformed, joint_mapping, log_unmapp
 print(f"Reordered joints shape: {smplx_joints.shape}")
 np.save(args.output, smplx_joints)
 print(f"Saved joints as {args.output}")
+ 

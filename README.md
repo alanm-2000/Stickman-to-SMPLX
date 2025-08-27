@@ -43,5 +43,5 @@ After generating the meshes and joints, you can visualize any frame with:
     ```
 This will open an interactive 3D plot (saved as 3d_smplx_plot.html) showing the SMPL-X body mesh along with joint markers and axes.
 
-![SMPL-X 3D visualization](assets/3dbody.png)
-
+![SMPL-X 3D visualization](assets/3dbody_mesh.png)
+ 

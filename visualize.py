@@ -14,7 +14,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-
+ 
 
 # ─── Load Mesh and Joints ─────────────────────────────────────
 mesh = np.load('all_meshes.npy')[args.frame]    # (N_vertices, 3)

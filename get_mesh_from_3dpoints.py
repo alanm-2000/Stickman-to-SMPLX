@@ -227,7 +227,7 @@ parser.add_argument(
     help="Output .npy file for joints (default: all_joints.npy)"
 )
 args = parser.parse_args()
-
+ 
 # ─── Load Input ───────────────────────────────────────────────────────────────
 if not os.path.exists(args.joints):
     raise FileNotFoundError(f"Joints file not found: {args.joints}")
