@@ -120,6 +120,9 @@ Displays the stickman body for all frames.
 - **`Place Camera v2.py`**  
 Place the real-life cameras in the blender ORX using the aligned_poses.json file and the intrinsic json file of the camera you want to place.
 
+- **`PlaceCameraMesh.py`**  
+Places GoPro Models where the cameras have been placed. Only works after `Place Camera v2.py` was used. The GoPro.glb model has to be imported in Blender: ``File --> Import --> glTF ``
+
 - **`render.py`**  
 Renders the scene using the prefered cameras.
 
